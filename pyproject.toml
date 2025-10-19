@@ -1,5 +1,5 @@
 [project]
-name = "math-lib-geometry-maksim-skdm"
+name = "math-lib-geometry-maksim"
 version = "0.1.0"
 description = "Библиотека для вычисления площадей геометрических фигур"
 authors = [
