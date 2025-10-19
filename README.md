@@ -56,6 +56,11 @@ except ValueError as e:
     print(f"Ошибка: {e}")  # Invalid triangle sides
 ```
 
+### Тестирование
+```bash
+    poetry run pytest --cov=math_lib --cov-report=term-missing --cov-fail-under=90 -v
+```
+
 ### Округление результатов
 
 ```python
