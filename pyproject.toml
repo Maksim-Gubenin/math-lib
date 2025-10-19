@@ -45,7 +45,7 @@ extend-exclude = '''
 line-length = 88
 target-version = "py37"
 
-[tool.ruff.lint]  # ← НОВОЕ: все линтеры в отдельной секции
+[tool.ruff.lint]
 select = ["E", "W", "F", "I", "B", "C4", "UP"]
 ignore = ["E501", "B008", "C901", "F401"]
 
